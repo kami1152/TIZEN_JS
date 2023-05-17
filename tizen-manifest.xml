@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="7.0" package="org.example.sensor_00" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="org.example.sensor_00" exec="sensor_00" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>sensor_00</label>
+        <icon>sensor_00.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/haptic</privilege>
+        <privilege>http://tizen.org/privilege/display</privilege>
+        <privilege>http://tizen.org/privilege/content.write</privilege>
+    </privileges>
+</manifest>
